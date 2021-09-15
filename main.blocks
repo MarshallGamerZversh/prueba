@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="LUgy%Isw9ex~b4kgpMa8" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="(-@f~QasFUSb]1Ex`ZaR"><field name="LEDS">`
+        # # # # # 
+        # # . # # 
+        # . # . # 
+        # # . # # 
+        # # # # #
+        `</field><next><block type="basic_show_arrow" id="{td$5]IUh`8-AN6*p*N*"><value name="i"><shadow type="device_arrow" id="/Gj=4HvETzJ0r$SNEmqJ"><field name="arrow">ArrowNames.West</field></shadow></value><next><block type="device_clear_display" id="X=8Y3lB@`Brpt$P9X!3{"/></next></block></next></block></statement></block><block type="device_forever" id=":cS|y7P?v9G;j@f|^ROO" x="208" y="163"/><block type="device_button_event" id="O?W46oCtdB]XOYF6gCst" x="7" y="424"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="F6c#l=nGPhPfO|c$1/}["><value name="text"><shadow type="text" id="O%K/t6n!h/yksZr^*:ZT"><field name="TEXT">Soy Andres</field></shadow></value><next><block type="device_show_number" id=",@eD?n]OY!Lz9R~Cz=N+"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="~pZ)6wa,3`$N-AKDLUNn"><field name="OP">ADD</field><value name="A"><shadow type="math_number" id="^5F[i+6]Boo9y!q+nMHp"><field name="NUM">500</field></shadow></value><value name="B"><shadow type="math_number" id="Qz)mSiSIoFRT9iQ)v;5$"><field name="NUM">450</field></shadow></value></block></value><next><block type="device_show_leds" id="S/+mcnxCO0tN%l*faCx%"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="device_show_number" id="(pq/IUi#%^!,~|^T8ZP*"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_js_op" id="E-ufwiGV0VeS?V+`)ACC"><mutation xmlns="http://www.w3.org/1999/xhtml" op-type="unary"></mutation><field name="OP">sqrt</field><value name="ARG0"><shadow type="math_number" id="QT;RJ_c@ied?o`_]{pLd"><field name="NUM">7350464</field></shadow></value></block></value><next><block type="device_clear_display" id="hg0eYtJ1yp_d`VvYR/Pm"/></next></block></next></block></next></block></next></block></statement></block></xml>
